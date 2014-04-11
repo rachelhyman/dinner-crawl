@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28BE9C0BB751434898D42783 /* libPods-DinnerCrawlTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FEA7A0FA1D43C198CC6F03 /* libPods-DinnerCrawlTests.a */; };
+		5362E3BE6C034DE48F2BC1AC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CA8CFC8656487481528A4E /* libPods.a */; };
+		CCDB716718F83DDE00AA15AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDB716618F83DDE00AA15AF /* Foundation.framework */; };
+		CCDB716918F83DDE00AA15AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDB716818F83DDE00AA15AF /* CoreGraphics.framework */; };
+		CCDB716B18F83DDE00AA15AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDB716A18F83DDE00AA15AF /* UIKit.framework */; };
+		CCDB717118F83DDE00AA15AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCDB716F18F83DDE00AA15AF /* InfoPlist.strings */; };
+		CCDB717318F83DDE00AA15AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDB717218F83DDE00AA15AF /* main.m */; };
+		CCDB717718F83DDE00AA15AF /* DCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDB717618F83DDE00AA15AF /* DCAppDelegate.m */; };
+		CCDB717D18F83DDE00AA15AF /* DCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDB717C18F83DDE00AA15AF /* DCViewController.m */; };
+		CCDB717F18F83DDE00AA15AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDB717E18F83DDE00AA15AF /* Images.xcassets */; };
+		CCDB718618F83DDE00AA15AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDB718518F83DDE00AA15AF /* XCTest.framework */; };
+		CCDB718718F83DDE00AA15AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDB716618F83DDE00AA15AF /* Foundation.framework */; };
+		CCDB718818F83DDE00AA15AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDB716A18F83DDE00AA15AF /* UIKit.framework */; };
+		CCDB719018F83DDE00AA15AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCDB718E18F83DDE00AA15AF /* InfoPlist.strings */; };
+		CCDB719218F83DDE00AA15AF /* DinnerCrawlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDB719118F83DDE00AA15AF /* DinnerCrawlTests.m */; };
+		CCDB719E18F8425600AA15AF /* DCMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDB719C18F8425600AA15AF /* DCMapViewController.m */; };
+		CCDB719F18F8425600AA15AF /* DCMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDB719C18F8425600AA15AF /* DCMapViewController.m */; };
+		CCDB71A018F8425600AA15AF /* DCMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDB719D18F8425600AA15AF /* DCMapViewController.xib */; };
+		CCDB71A118F8425600AA15AF /* DCMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDB719D18F8425600AA15AF /* DCMapViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCDB718918F83DDE00AA15AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCDB715B18F83DDE00AA15AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCDB716218F83DDE00AA15AF;
+			remoteInfo = DinnerCrawl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C2257140DD43618B12E194 /* Pods-DinnerCrawlTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinnerCrawlTests.xcconfig"; path = "Pods/Pods-DinnerCrawlTests.xcconfig"; sourceTree = "<group>"; };
+		07FEA7A0FA1D43C198CC6F03 /* libPods-DinnerCrawlTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DinnerCrawlTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CA8CFC8656487481528A4E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDB716318F83DDE00AA15AF /* DinnerCrawl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinnerCrawl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDB716618F83DDE00AA15AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCDB716818F83DDE00AA15AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCDB716A18F83DDE00AA15AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCDB716E18F83DDE00AA15AF /* DinnerCrawl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DinnerCrawl-Info.plist"; sourceTree = "<group>"; };
+		CCDB717018F83DDE00AA15AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCDB717218F83DDE00AA15AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCDB717418F83DDE00AA15AF /* DinnerCrawl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DinnerCrawl-Prefix.pch"; sourceTree = "<group>"; };
+		CCDB717518F83DDE00AA15AF /* DCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCAppDelegate.h; sourceTree = "<group>"; };
+		CCDB717618F83DDE00AA15AF /* DCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCAppDelegate.m; sourceTree = "<group>"; };
+		CCDB717B18F83DDE00AA15AF /* DCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCViewController.h; sourceTree = "<group>"; };
+		CCDB717C18F83DDE00AA15AF /* DCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCViewController.m; sourceTree = "<group>"; };
+		CCDB717E18F83DDE00AA15AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCDB718418F83DDE00AA15AF /* DinnerCrawlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinnerCrawlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDB718518F83DDE00AA15AF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCDB718D18F83DDE00AA15AF /* DinnerCrawlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DinnerCrawlTests-Info.plist"; sourceTree = "<group>"; };
+		CCDB718F18F83DDE00AA15AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCDB719118F83DDE00AA15AF /* DinnerCrawlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DinnerCrawlTests.m; sourceTree = "<group>"; };
+		CCDB719B18F8425600AA15AF /* DCMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMapViewController.h; sourceTree = "<group>"; };
+		CCDB719C18F8425600AA15AF /* DCMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMapViewController.m; sourceTree = "<group>"; };
+		CCDB719D18F8425600AA15AF /* DCMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCMapViewController.xib; sourceTree = "<group>"; };
+		F3C022A4C0C54C71A1E040B1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCDB716018F83DDE00AA15AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDB716918F83DDE00AA15AF /* CoreGraphics.framework in Frameworks */,
+				CCDB716B18F83DDE00AA15AF /* UIKit.framework in Frameworks */,
+				CCDB716718F83DDE00AA15AF /* Foundation.framework in Frameworks */,
+				5362E3BE6C034DE48F2BC1AC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDB718118F83DDE00AA15AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDB718618F83DDE00AA15AF /* XCTest.framework in Frameworks */,
+				CCDB718818F83DDE00AA15AF /* UIKit.framework in Frameworks */,
+				CCDB718718F83DDE00AA15AF /* Foundation.framework in Frameworks */,
+				28BE9C0BB751434898D42783 /* libPods-DinnerCrawlTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCDB715A18F83DDE00AA15AF = {
+			isa = PBXGroup;
+			children = (
+				CCDB716C18F83DDE00AA15AF /* DinnerCrawl */,
+				CCDB718B18F83DDE00AA15AF /* DinnerCrawlTests */,
+				CCDB716518F83DDE00AA15AF /* Frameworks */,
+				CCDB716418F83DDE00AA15AF /* Products */,
+				F3C022A4C0C54C71A1E040B1 /* Pods.xcconfig */,
+				03C2257140DD43618B12E194 /* Pods-DinnerCrawlTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		CCDB716418F83DDE00AA15AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB716318F83DDE00AA15AF /* DinnerCrawl.app */,
+				CCDB718418F83DDE00AA15AF /* DinnerCrawlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCDB716518F83DDE00AA15AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB716618F83DDE00AA15AF /* Foundation.framework */,
+				CCDB716818F83DDE00AA15AF /* CoreGraphics.framework */,
+				CCDB716A18F83DDE00AA15AF /* UIKit.framework */,
+				CCDB718518F83DDE00AA15AF /* XCTest.framework */,
+				42CA8CFC8656487481528A4E /* libPods.a */,
+				07FEA7A0FA1D43C198CC6F03 /* libPods-DinnerCrawlTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCDB716C18F83DDE00AA15AF /* DinnerCrawl */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB717518F83DDE00AA15AF /* DCAppDelegate.h */,
+				CCDB717618F83DDE00AA15AF /* DCAppDelegate.m */,
+				CCDB717B18F83DDE00AA15AF /* DCViewController.h */,
+				CCDB717C18F83DDE00AA15AF /* DCViewController.m */,
+				CCDB717E18F83DDE00AA15AF /* Images.xcassets */,
+				CCDB719B18F8425600AA15AF /* DCMapViewController.h */,
+				CCDB719C18F8425600AA15AF /* DCMapViewController.m */,
+				CCDB719D18F8425600AA15AF /* DCMapViewController.xib */,
+				CCDB716D18F83DDE00AA15AF /* Supporting Files */,
+			);
+			path = DinnerCrawl;
+			sourceTree = "<group>";
+		};
+		CCDB716D18F83DDE00AA15AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB716E18F83DDE00AA15AF /* DinnerCrawl-Info.plist */,
+				CCDB716F18F83DDE00AA15AF /* InfoPlist.strings */,
+				CCDB717218F83DDE00AA15AF /* main.m */,
+				CCDB717418F83DDE00AA15AF /* DinnerCrawl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCDB718B18F83DDE00AA15AF /* DinnerCrawlTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB719118F83DDE00AA15AF /* DinnerCrawlTests.m */,
+				CCDB718C18F83DDE00AA15AF /* Supporting Files */,
+			);
+			path = DinnerCrawlTests;
+			sourceTree = "<group>";
+		};
+		CCDB718C18F83DDE00AA15AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB718D18F83DDE00AA15AF /* DinnerCrawlTests-Info.plist */,
+				CCDB718E18F83DDE00AA15AF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCDB716218F83DDE00AA15AF /* DinnerCrawl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDB719518F83DDE00AA15AF /* Build configuration list for PBXNativeTarget "DinnerCrawl" */;
+			buildPhases = (
+				44F4274635D146CA99F02BF7 /* Check Pods Manifest.lock */,
+				CCDB715F18F83DDE00AA15AF /* Sources */,
+				CCDB716018F83DDE00AA15AF /* Frameworks */,
+				CCDB716118F83DDE00AA15AF /* Resources */,
+				08FC53F7FD7743E991A9B309 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinnerCrawl;
+			productName = DinnerCrawl;
+			productReference = CCDB716318F83DDE00AA15AF /* DinnerCrawl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCDB718318F83DDE00AA15AF /* DinnerCrawlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDB719818F83DDE00AA15AF /* Build configuration list for PBXNativeTarget "DinnerCrawlTests" */;
+			buildPhases = (
+				F2C8B12E1D784727A78E8F5F /* Check Pods Manifest.lock */,
+				CCDB718018F83DDE00AA15AF /* Sources */,
+				CCDB718118F83DDE00AA15AF /* Frameworks */,
+				CCDB718218F83DDE00AA15AF /* Resources */,
+				18B4204848C549B2AE98CD2E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCDB718A18F83DDE00AA15AF /* PBXTargetDependency */,
+			);
+			name = DinnerCrawlTests;
+			productName = DinnerCrawlTests;
+			productReference = CCDB718418F83DDE00AA15AF /* DinnerCrawlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCDB715B18F83DDE00AA15AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rachel Hyman";
+				TargetAttributes = {
+					CCDB718318F83DDE00AA15AF = {
+						TestTargetID = CCDB716218F83DDE00AA15AF;
+					};
+				};
+			};
+			buildConfigurationList = CCDB715E18F83DDE00AA15AF /* Build configuration list for PBXProject "DinnerCrawl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCDB715A18F83DDE00AA15AF;
+			productRefGroup = CCDB716418F83DDE00AA15AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCDB716218F83DDE00AA15AF /* DinnerCrawl */,
+				CCDB718318F83DDE00AA15AF /* DinnerCrawlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCDB716118F83DDE00AA15AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDB71A018F8425600AA15AF /* DCMapViewController.xib in Resources */,
+				CCDB717F18F83DDE00AA15AF /* Images.xcassets in Resources */,
+				CCDB717118F83DDE00AA15AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDB718218F83DDE00AA15AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDB71A118F8425600AA15AF /* DCMapViewController.xib in Resources */,
+				CCDB719018F83DDE00AA15AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08FC53F7FD7743E991A9B309 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18B4204848C549B2AE98CD2E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-DinnerCrawlTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44F4274635D146CA99F02BF7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C8B12E1D784727A78E8F5F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCDB715F18F83DDE00AA15AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDB719E18F8425600AA15AF /* DCMapViewController.m in Sources */,
+				CCDB717318F83DDE00AA15AF /* main.m in Sources */,
+				CCDB717D18F83DDE00AA15AF /* DCViewController.m in Sources */,
+				CCDB717718F83DDE00AA15AF /* DCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDB718018F83DDE00AA15AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDB719F18F8425600AA15AF /* DCMapViewController.m in Sources */,
+				CCDB719218F83DDE00AA15AF /* DinnerCrawlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCDB718A18F83DDE00AA15AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCDB716218F83DDE00AA15AF /* DinnerCrawl */;
+			targetProxy = CCDB718918F83DDE00AA15AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCDB716F18F83DDE00AA15AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCDB717018F83DDE00AA15AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCDB718E18F83DDE00AA15AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCDB718F18F83DDE00AA15AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCDB719318F83DDE00AA15AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCDB719418F83DDE00AA15AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCDB719618F83DDE00AA15AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C022A4C0C54C71A1E040B1 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DinnerCrawl/DinnerCrawl-Prefix.pch";
+				INFOPLIST_FILE = "DinnerCrawl/DinnerCrawl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCDB719718F83DDE00AA15AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C022A4C0C54C71A1E040B1 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DinnerCrawl/DinnerCrawl-Prefix.pch";
+				INFOPLIST_FILE = "DinnerCrawl/DinnerCrawl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCDB719918F83DDE00AA15AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C2257140DD43618B12E194 /* Pods-DinnerCrawlTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DinnerCrawl.app/DinnerCrawl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DinnerCrawl/DinnerCrawl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DinnerCrawlTests/DinnerCrawlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCDB719A18F83DDE00AA15AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C2257140DD43618B12E194 /* Pods-DinnerCrawlTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DinnerCrawl.app/DinnerCrawl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DinnerCrawl/DinnerCrawl-Prefix.pch";
+				INFOPLIST_FILE = "DinnerCrawlTests/DinnerCrawlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCDB715E18F83DDE00AA15AF /* Build configuration list for PBXProject "DinnerCrawl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDB719318F83DDE00AA15AF /* Debug */,
+				CCDB719418F83DDE00AA15AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCDB719518F83DDE00AA15AF /* Build configuration list for PBXNativeTarget "DinnerCrawl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDB719618F83DDE00AA15AF /* Debug */,
+				CCDB719718F83DDE00AA15AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCDB719818F83DDE00AA15AF /* Build configuration list for PBXNativeTarget "DinnerCrawlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDB719918F83DDE00AA15AF /* Debug */,
+				CCDB719A18F83DDE00AA15AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCDB715B18F83DDE00AA15AF /* Project object */;
+}
