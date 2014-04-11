@@ -24,26 +24,48 @@ describe(@"DCMapViewController", ^{
     });
     
     describe(@"#viewDidLoad", ^{
-        it(@"sets up the MapBox tile source", ^{
+        __block RMMapboxSource *expectedSource;
+        __block RMMapView *mockMapView;
+        __block RMMapView *expectedMapView;
+        
+        beforeEach(^{
+            RMMapboxSource *mockSource = [RMMapboxSource mock];
             
-            [mapViewController viewDidLoad];
+            [RMMapboxSource stub:@selector(alloc) andReturn:mockSource];
+            expectedSource = [RMMapboxSource mock];
+            [mockSource stub:@selector(initWithMapID:) andReturn:expectedSource withArguments:@"rhyman.hope464m"];
             
-            [[mapViewController.tileSource shouldNot] beNil];
+            mockMapView = [RMMapView mock];
+            [RMMapView stub:@selector(alloc) andReturn:mockMapView];
+            
+            expectedMapView = [RMMapView mock];
+            [mockMapView stub:@selector(initWithFrame:andTilesource:) andReturn:expectedMapView];
+            
+            UIView *mockView = [UIView mock];
+            [mapViewController stub:@selector(view) andReturn:mockView];
+            [mockView stub:@selector(bounds)];
+            [mockView stub:@selector(addSubview:)];
         });
         
         it(@"creates a tile source from our desired id", ^{
-            
-            RMMapboxSource *mockSource = [RMMapboxSource mock];
-
-            [RMMapboxSource stub:@selector(alloc) andReturn:mockSource];
-            RMMapboxSource *expectedSource = [[RMMapboxSource alloc] init];
-            [mockSource stub:@selector(initWithMapID:) andReturn:expectedSource withArguments:@"rhyman.hope464m"];
-            
             [mapViewController viewDidLoad];
-            
+
             [[mapViewController.tileSource should] equal:expectedSource];
         });
         
+        it(@"creates a map view with the tile source", ^{
+            [mapViewController viewDidLoad];
+            
+            [[mapViewController.mapView should] equal:expectedMapView];
+            
+        });
+        
+        it(@"adds subview of map", ^{
+            [[mapViewController.view should] receive:@selector(addSubview:) withArguments:expectedMapView];
+            
+            [mapViewController viewDidLoad];
+            
+        });
         
     });
 });

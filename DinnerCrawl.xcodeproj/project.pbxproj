@@ -26,6 +26,8 @@
 		CCDB719F18F8425600AA15AF /* DCMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDB719C18F8425600AA15AF /* DCMapViewController.m */; };
 		CCDB71A018F8425600AA15AF /* DCMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDB719D18F8425600AA15AF /* DCMapViewController.xib */; };
 		CCDB71A118F8425600AA15AF /* DCMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDB719D18F8425600AA15AF /* DCMapViewController.xib */; };
+		CCDB71AA18F8816500AA15AF /* bella3.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDB71A918F8816500AA15AF /* bella3.png */; };
+		CCDB71AC18F882C300AA15AF /* bella.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDB71AB18F882C300AA15AF /* bella.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		CCDB719B18F8425600AA15AF /* DCMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMapViewController.h; sourceTree = "<group>"; };
 		CCDB719C18F8425600AA15AF /* DCMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMapViewController.m; sourceTree = "<group>"; };
 		CCDB719D18F8425600AA15AF /* DCMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCMapViewController.xib; sourceTree = "<group>"; };
+		CCDB71A918F8816500AA15AF /* bella3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bella3.png; sourceTree = "<group>"; };
+		CCDB71AB18F882C300AA15AF /* bella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bella.png; sourceTree = "<group>"; };
 		F3C022A4C0C54C71A1E040B1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +141,8 @@
 				CCDB719B18F8425600AA15AF /* DCMapViewController.h */,
 				CCDB719C18F8425600AA15AF /* DCMapViewController.m */,
 				CCDB719D18F8425600AA15AF /* DCMapViewController.xib */,
+				CCDB71A918F8816500AA15AF /* bella3.png */,
+				CCDB71AB18F882C300AA15AF /* bella.png */,
 				CCDB716D18F83DDE00AA15AF /* Supporting Files */,
 			);
 			path = DinnerCrawl;
@@ -252,8 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCDB71AC18F882C300AA15AF /* bella.png in Resources */,
 				CCDB71A018F8425600AA15AF /* DCMapViewController.xib in Resources */,
 				CCDB717F18F83DDE00AA15AF /* Images.xcassets in Resources */,
+				CCDB71AA18F8816500AA15AF /* bella3.png in Resources */,
 				CCDB717118F83DDE00AA15AF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

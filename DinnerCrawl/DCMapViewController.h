@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "Mapbox.h"
 
-@interface DCMapViewController : UIViewController
+@interface DCMapViewController : UIViewController <RMMapViewDelegate>
 
 @property (nonatomic, strong) RMMapboxSource *tileSource;
+@property (nonatomic, strong) RMMapView *mapView; 
 
 @end
