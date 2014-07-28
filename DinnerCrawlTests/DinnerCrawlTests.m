@@ -29,19 +29,19 @@ describe(@"DCMapViewController", ^{
         __block RMMapView *expectedMapView;
         
         beforeEach(^{
-            RMMapboxSource *mockSource = [RMMapboxSource mock];
+            RMMapboxSource *mockSource = [RMMapboxSource nullMock];
             
             [RMMapboxSource stub:@selector(alloc) andReturn:mockSource];
-            expectedSource = [RMMapboxSource mock];
+            expectedSource = [RMMapboxSource nullMock];
             [mockSource stub:@selector(initWithMapID:) andReturn:expectedSource withArguments:@"rhyman.hope464m"];
             
-            mockMapView = [RMMapView mock];
+            mockMapView = [RMMapView nullMock];
             [RMMapView stub:@selector(alloc) andReturn:mockMapView];
             
-            expectedMapView = [RMMapView mock];
+            expectedMapView = [RMMapView nullMock];
             [mockMapView stub:@selector(initWithFrame:andTilesource:) andReturn:expectedMapView];
             
-            UIView *mockView = [UIView mock];
+            UIView *mockView = [UIView nullMock];
             [mapViewController stub:@selector(view) andReturn:mockView];
             [mockView stub:@selector(bounds)];
             [mockView stub:@selector(addSubview:)];
@@ -65,6 +65,12 @@ describe(@"DCMapViewController", ^{
             
             [mapViewController viewDidLoad];
             
+        });
+        
+        it(@"sets the correct center coordinate", ^{
+            CLLocationCoordinate2D center = CLLocationCoordinate2DMake(38.307181, -82.705078);
+            [[expectedMapView should] receive:@selector(setCenterCoordinate:) withArguments:theValue(center)];
+            [mapViewController viewDidLoad];
         });
         
     });

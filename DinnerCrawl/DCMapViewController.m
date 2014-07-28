@@ -31,14 +31,12 @@
     self.tileSource = [[RMMapboxSource alloc] initWithMapID:@"rhyman.hope464m"];
     self.mapView = [[RMMapView alloc] initWithFrame:self.view.bounds andTilesource:self.tileSource];
     self.mapView.delegate = self;
-    [self.mapView setCenterCoordinate:CLLocationCoordinate2DMake(42.348122, -83.054237)];
-    [self.mapView setZoom:12 animated:YES];
+    [self.mapView setCenterCoordinate:CLLocationCoordinate2DMake(38.307181, -82.705078)];
+    [self.mapView setZoom:3 animated:YES];
     [self.view addSubview:self.mapView];
     
-    RMAnnotation *annotation = [[RMAnnotation alloc] initWithMapView:self.mapView coordinate:CLLocationCoordinate2DMake(42.335416, -83.049161) andTitle:@"Detroit Labs"];
+    RMAnnotation *annotation = [[RMAnnotation alloc] initWithMapView:self.mapView coordinate:CLLocationCoordinate2DMake(42.335416, -83.049161) andTitle:@"Home"];
     [self.mapView addAnnotation:annotation];
-    
-
 }
 
 - (void)didReceiveMemoryWarning
@@ -52,15 +50,20 @@
     if (annotation.isUserLocationAnnotation)
         return nil;
     
-    RMMarker *marker = [[RMMarker alloc] initWithMapboxMarkerImage:@"heart" tintColor:[UIColor redColor]];
+    RMMapLayer *layer = nil;
+
+        RMMarker *marker = [[RMMarker alloc] initWithMapboxMarkerImage:@"fire-station" tintColor:[UIColor orangeColor]];
+        
+        marker.canShowCallout = YES;
+        
+        marker.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bella3.png"]];
+        
+        marker.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+        
+        layer = marker;
     
-    marker.canShowCallout = YES;
     
-    marker.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bella3.png"]];
-    
-    marker.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-    
-    return marker;
+    return layer;
 }
 
 - (void)tapOnCalloutAccessoryControl:(UIControl *)control forAnnotation:(RMAnnotation *)annotation onMap:(RMMapView *)map
